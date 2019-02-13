@@ -147,6 +147,7 @@ namespace SimpleAdo
 
         public async Task<int> ExecuteNonQueryAsync()
         {
+            //test 2
             return await ProcessAsync(c => c.ExecuteNonQueryAsync());
         }
 

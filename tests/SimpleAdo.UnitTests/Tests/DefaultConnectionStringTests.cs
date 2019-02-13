@@ -23,6 +23,8 @@ public class DefaultConnectionStringTests
     {
         DefaultConnectionString.SetName("NewValidName");
 
+        DefaultConnectionString.ConnectionString.WriteToConsole();
+
         Assert.That(DefaultConnectionString.ConnectionString, Contains.Substring("NewDataSource"));
     }
 
