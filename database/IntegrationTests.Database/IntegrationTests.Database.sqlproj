@@ -67,8 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="SqlCompare.scmp" />
-    <None Include="DeployDev.publish.xml" />
-    <None Include="DeployProduction.publish.xml" />
+    <None Include="Deploy.Development.publish.xml" />
+    <None Include="Deploy.Production.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
